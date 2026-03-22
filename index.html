@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashmeet Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <!-- Background network animation placeholder -->
+    <div class="network-bg"></div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="top-nav-wrapper">
+            <nav class="pill-nav">
+                <a href="#home" class="nav-btn active">Home</a>
+                <a href="#skills" class="nav-btn">Skills</a>
+                <a href="#experience" class="nav-btn">Experience</a>
+                <a href="#projects" class="nav-btn">Projects</a>
+                <a href="#training" class="nav-btn">Training &amp; Certs</a>
+                <a href="#education" class="nav-btn">Education</a>
+                <a href="#contact" class="nav-btn">Contact</a>
+                <div class="theme-switch" id="theme-toggle">
+                    <div class="switch-track">
+                        <div class="switch-thumb"></div>
+                    </div>
+                </div>
+            </nav>
+            <a href="resume.pdf.pdf" download="Ashmeet_Kumar_Resume.pdf" class="top-download-btn">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <div class="badge-accent">
+                    <span>Hello, I'm</span>
+                </div>
+                <h1 class="hero-title">Ashmeet Kumar</h1>
+                <h2 class="hero-subtitle">Software Developer & Data Analytics Enthusiast</h2>
+
+                <p class="hero-desc">
+                    I'm a Computer Science student at Lovely Professional University,
+                    passionate about Data Analysis, Power BI, Java &amp; Python.<br>
+                    I build analytical dashboards, machine learning models, and
+                    GUI-based applications. I love problem-solving and diving deep
+                    into Data Structures &amp; Algorithms.<br><br>
+                    My focus is transforming complex data into scalable solutions
+                    that create real-world impact.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="collaborate-btn">
+                        <span>View My Projects</span>
+                    </a>
+                    <a href="#contact" class="contact-btn-outline">
+                        <i class="fa-solid fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-area">
+                <div class="image-circle-container">
+                    <div class="floating-stats animated-border">
+                        <div class="card-inner">
+                            <span class="stat-title">Years of Experience</span>
+                            <span class="stat-number">3+</span>
+                        </div>
+                    </div>
+                    <!-- Profile Photo -->
+                    <div class="profile-photo" style="background-image: url('profile.png.png')"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider">
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid skills-grid-3">
+
+                <!-- Programming Languages -->
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                        <div class="tags">
+                            <span class="tag"><i class="devicon-java-plain colored"></i> Java</span>
+                            <span class="tag"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+                            <span class="tag"><i class="devicon-python-plain colored"></i> Python</span>
+                            <span class="tag"><i class="devicon-c-plain colored"></i> C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-brands fa-html5"></i> Web Technologies</h3>
+                        <div class="tags">
+                            <span class="tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+                            <span class="tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+                            <span class="tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libraries & Frameworks -->
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-layer-group"></i> Libraries & Frameworks</h3>
+                        <div class="tags">
+                            <span class="tag"><i class="devicon-numpy-plain colored"></i> NumPy</span>
+                            <span class="tag"><i class="devicon-pandas-plain colored"></i> Pandas</span>
+                            <span class="tag"><i class="devicon-matplotlib-plain colored"></i> Matplotlib</span>
+                            <span class="tag">🌊 Seaborn</span>
+                            <span class="tag"><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</span>
+                            <span class="tag"><i class="devicon-java-plain colored"></i> Java Swing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-card animated-border active-spin">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-wrench"></i> Tools & Platforms</h3>
+                        <div class="tags">
+                            <span class="tag"><i class="devicon-linux-plain colored"></i> Linux</span>
+                            <span class="tag">📊 Power BI</span>
+                            <span class="tag"><i class="devicon-vscode-plain colored"></i> VS Code</span>
+                            <span class="tag"><i class="devicon-figma-plain colored"></i> Figma</span>
+                            <span class="tag"><i class="devicon-git-plain colored"></i> Git</span>
+                            <span class="tag"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+                            <span class="tag"><i class="devicon-intellij-plain colored"></i> IntelliJ</span>
+                            <span class="tag">🕷️ Spyder</span>
+                            <span class="tag">📗 MS Excel</span>
+                        </div>
+                        <div class="spin-dot"></div>
+                    </div>
+                </div>
+
+                <!-- Core CS -->
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-brain"></i> Core CS</h3>
+                        <div class="tags">
+                            <span class="tag">🖥️ Operating Systems</span>
+                            <span class="tag">🧩 DSA</span>
+                            <span class="tag">🌐 Computer Networks</span>
+                            <span class="tag">🗄️ DBMS</span>
+                            <span class="tag">📦 OOPs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+                        <div class="tags">
+                            <span class="tag">🧠 Analytical Thinking</span>
+                            <span class="tag">🔍 Problem-Solving</span>
+                            <span class="tag">✨ Creativity</span>
+                            <span class="tag">🔄 Adaptability</span>
+                            <span class="tag">🤝 Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider">
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+
+            <!-- Shared role / company header -->
+            <div class="exp-role-header animated-border">
+                <div class="card-inner exp-role-inner">
+                    <div class="exp-role-left">
+                        <p class="exp-role-title">Data Management &amp; Operations Analyst</p>
+                        <p class="exp-role-company">
+                            <i class="fa-solid fa-building"></i>
+                            <span class="exp-company-name">Boparai Industries</span>
+                            &nbsp;|&nbsp; <span class="exp-type">Part Time</span>
+                        </p>
+                    </div>
+                    <div class="exp-role-right">
+                        <span class="exp-role-duration">
+                            <i class="fa-regular fa-calendar"></i> Jul 2022 – Present
+                        </span>
+                        <span class="exp-in-process-badge">
+                            <span class="in-process-dot"></span> Currently in Process
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-timeline">
+                <!-- Centre vertical line -->
+                <div class="exp-timeline-line"></div>
+
+                <!-- Milestone 1 -->
+                <div class="exp-timeline-item left">
+                    <div class="exp-timeline-dot"></div>
+                    <div class="exp-tl-card animated-border">
+                        <div class="card-inner">
+                            <h3 class="exp-tl-title">Data Operator</h3>
+                            <p class="exp-tl-desc">Started as a data operator handling day-to-day data entry, record
+                                management, and maintaining operational files across departments.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 2 -->
+                <div class="exp-timeline-item right">
+                    <div class="exp-timeline-dot"></div>
+                    <div class="exp-tl-card animated-border">
+                        <div class="card-inner">
+                            <h3 class="exp-tl-title">Built the Foundation of the Data System</h3>
+                            <p class="exp-tl-desc">Pioneered the company's foundational data system using Google Drive,
+                                Google Forms &amp; Excel, achieving a <strong>90% enhancement</strong> in data
+                                accessibility with secure storage and streamlined file structures for critical
+                                operational data.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 3 -->
+                <div class="exp-timeline-item left">
+                    <div class="exp-timeline-dot"></div>
+                    <div class="exp-tl-card animated-border">
+                        <div class="card-inner">
+                            <h3 class="exp-tl-title">Coordinated Order Flow &amp; Financial Processes</h3>
+                            <p class="exp-tl-desc">Coordinated customer order flow and financial processes, engaging
+                                directly in the revenue pipeline to secure necessary documentation and finalize order
+                                funding and execution.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 4 -->
+                <div class="exp-timeline-item right">
+                    <div class="exp-timeline-dot"></div>
+                    <div class="exp-tl-card animated-border">
+                        <div class="card-inner">
+                            <h3 class="exp-tl-title">Built Reports &amp; Established Weekly Data Collection</h3>
+                            <p class="exp-tl-desc">Designed and built a number of operational reports, distributing them
+                                to the respective department in-charges for informed decision-making. Subsequently
+                                established a structured weekly data collection process — gathering updated data
+                                directly from in-charges, storing it systematically, and performing weekly analysis to
+                                track performance trends.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 5 -->
+                <div class="exp-timeline-item left">
+                    <div class="exp-timeline-dot"></div>
+                    <div class="exp-tl-card animated-border">
+                        <div class="card-inner">
+                            <h3 class="exp-tl-title">Production &amp; Breakdown Dashboard</h3>
+                            <p class="exp-tl-tech"><i class="fa-solid fa-chart-bar"></i> Power BI &nbsp;&middot;&nbsp; 3
+                                months (Oct – Dec 2025)</p>
+                            <p class="exp-tl-desc">Built an interactive Power BI dashboard covering production, tonnage,
+                                breakdown, and machine utilization with KPIs, shift-wise / day-wise / month-wise trends,
+                                and drill-down slicers for machine, shift, and quality checker.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 6 — Currently in Process -->
+                <div class="exp-timeline-item right">
+                    <div class="exp-timeline-dot active-dot"></div>
+                    <div class="exp-tl-card animated-border active-spin">
+                        <div class="card-inner">
+                            <div class="exp-in-process-inline">
+                                <span class="in-process-dot"></span>
+                                <span class="in-process-label">Currently in Process</span>
+                            </div>
+                            <h3 class="exp-tl-title">Payroll Management Software</h3>
+                            <p class="exp-tl-tech"><i class="fa-brands fa-java"></i> JavaFX &amp; MySQL</p>
+                            <p class="exp-tl-desc">Currently developing a production-ready Payroll Management System
+                                with employee portals, attendance tracking, salary processing, payslip generation, and
+                                admin dashboards.</p>
+                            <div class="spin-dot"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider">
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+
+                <div class="project-card animated-border">
+                    <div class="card-inner no-pad">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80"
+                            alt="Production Dashboard" class="proj-img">
+                        <div class="proj-content">
+                            <h3>Production-Breakdown Analysis Dashboard | Power BI</h3>
+                            <p class="exp-subtitle" style="font-size: 0.85rem; margin-bottom: 0.5rem;">Dec 2025
+                                &nbsp;|&nbsp; Boparai Industries</p>
+                            <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                                • Pre-processed and transformed company's data for accurate visualization using Power
+                                Query.<br>
+                                • Built an interactive dashboard for production, tonnage, breakdown, and machine
+                                utilization.<br>
+                                • Created KPIs for production, tonnage, breakdown time, and downtime percentage.<br>
+                                • Visualized shift-wise, day-wise, and month-wise production trends.<br>
+                                • Enabled drill-down analysis using slicers for machine, shift, and quality checker.
+                            </p>
+                            <div class="proj-tags">
+                                <span class="tag dark">Power BI</span>
+                                <span class="tag dark">Power Query</span>
+                                <span class="tag dark">Data Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animated-border">
+                    <div class="card-inner no-pad">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=400&q=80"
+                            alt="Airline Management" class="proj-img">
+                        <div class="proj-content">
+                            <h3>Airline Management System | Java Swing &amp; MySQL</h3>
+                            <p class="exp-subtitle" style="font-size: 0.85rem; margin-bottom: 0.5rem;">Jun 2025</p>
+                            <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                                • Designed and implemented a GUI-based airline booking system integrated with MySQL
+                                using optimized SQL queries.<br>
+                                • Improved features such as passenger data entry, flight selection, and automated
+                                booking confirmation.<br>
+                                • Applied data validation and preprocessing techniques to ensure accurate and efficient
+                                record handling.
+                            </p>
+                            <div class="proj-tags">
+                                <span class="tag dark">Java Swing</span>
+                                <span class="tag dark">MySQL</span>
+                                <span class="tag dark">GUI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animated-border">
+                    <div class="card-inner no-pad">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=400&q=80"
+                            alt="Coal Analytics" class="proj-img">
+                        <div class="proj-content">
+                            <h3>Coal Stock Analytics Dashboard | Microsoft Excel</h3>
+                            <p class="exp-subtitle" style="font-size: 0.85rem; margin-bottom: 0.5rem;">Apr 2025</p>
+                            <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                                • Cleaned and pre-processed public CSV data for accurate visualization and insights.<br>
+                                • Compared operational efficiency across Central, State, Private, and Sectors.<br>
+                                • Developed a sector-wise performance dashboard for Indian thermal power plants using
+                                Excel.<br>
+                                • Analysed coal stock levels, PLF, and power generation efficiency using pivot tables
+                                and slicers.
+                            </p>
+                            <div class="proj-tags">
+                                <span class="tag dark">Microsoft Excel</span>
+                                <span class="tag dark">Data Analytics</span>
+                                <span class="tag dark">Pivot Tables</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider">
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Training & Certificates Section -->
+        <section id="training" class="section">
+            <h2 class="section-title">Training &amp; Certificates</h2>
+
+            <div class="experience-card animated-border active-spin large" style="margin-bottom: 2rem;">
+                <div class="card-inner">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-title">Application Development in Java</h3>
+                            <p class="exp-company"><i class="fa-solid fa-university"></i> Lovely Professional University
+                            </p>
+                        </div>
+                        <div class="exp-date-badge">Jul 2025</div>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Engineered multiple GUI-based applications using Java Swing, enhanced user interaction and
+                            functionality, leading to a <strong>30% increase</strong> in usability and engagement.</li>
+                        <li>Implemented object-oriented programming concepts such as inheritance, polymorphism, and
+                            encapsulation, improving code modularity and maintainability.</li>
+                        <li>Optimized file handling and data processing operations, reduced input/output processing time
+                            and boosted application efficiency.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Certificates</h3>
+            <div class="skills-grid certs-grid">
+
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-certificate"></i> Cloud Computing</h3>
+                        <p class="exp-subtitle">NPTEL</p>
+                        <p class="exp-date-sm">Oct 2025</p>
+                    </div>
+                </div>
+
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-brands fa-java"></i> Java Maestro</h3>
+                        <p class="exp-subtitle">Hands-on GUI Application Development</p>
+                        <p class="exp-subtitle">LPU</p>
+                        <p class="exp-date-sm">Jul 2025</p>
+                    </div>
+                </div>
+
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-sitemap"></i> Data Structures &amp; Algorithms</h3>
+                        <p class="exp-subtitle">iamneo</p>
+                        <p class="exp-date-sm">Dec 2024</p>
+                    </div>
+                </div>
+
+                <div class="skill-card animated-border">
+                    <div class="card-inner">
+                        <h3><i class="fa-solid fa-cubes"></i> Object Oriented Programming</h3>
+                        <p class="exp-subtitle">iamneo</p>
+                        <p class="exp-date-sm">Dec 2024</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider">
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Education -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="achievements-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+
+                <div class="experience-card animated-border large">
+                    <div class="card-inner edu-card-inner">
+                        <div>
+                            <h3 class="exp-title">Lovely Professional University</h3>
+                            <p class="exp-subtitle" style="margin-top: 0.3rem;">Bachelor of Technology | IT
+                                &nbsp;|&nbsp; <strong>CGPA: 8.21</strong></p>
+                        </div>
+                        <div style="text-align: right;">
+                            <p style="color: var(--text); font-weight: 500;">Phagwara, Punjab</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Aug 2023 – Present</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card animated-border large">
+                    <div class="card-inner edu-card-inner">
+                        <div>
+                            <h3 class="exp-title">Government Senior Secondary School</h3>
+                            <p class="exp-subtitle" style="margin-top: 0.3rem;">Intermediate &nbsp;|&nbsp;
+                                <strong>Percentage: 90.6%</strong>
+                            </p>
+                        </div>
+                        <div style="text-align: right;">
+                            <p style="color: var(--text); font-weight: 500;">Doraha, Punjab</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Apr 2021 – Mar 2022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card animated-border large">
+                    <div class="card-inner edu-card-inner">
+                        <div>
+                            <h3 class="exp-title">Saraswati Model Senior Secondary School</h3>
+                            <p class="exp-subtitle" style="margin-top: 0.3rem;">Matriculation &nbsp;|&nbsp;
+                                <strong>Grade: A+</strong>
+                            </p>
+                        </div>
+                        <div style="text-align: right;">
+                            <p style="color: var(--text); font-weight: 500;">Doraha, Punjab</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Apr 2019 – Mar 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's build something<br>amazing together!</p>
+
+            <div class="contact-grid">
+
+                <div class="contact-info animated-border">
+                    <div class="card-inner">
+                        <h3>Let's Connect</h3>
+                        <p>I'm constantly looking for new opportunities and challenges. Whether you have a question or
+                            just want to say hi, feel free to drop a message!</p>
+
+                        <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem;">
+                            <div class="email-box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>ashmeetkumar044@gmail.com</span>
+                            </div>
+                            <div class="email-box">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+91 7917589357521</span>
+                            </div>
+                            <div class="email-box">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/ashmeet18"
+                                    target="_blank">linkedin.com/in/ashmeet18</a>
+                            </div>
+                            <div class="email-box">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/ashmeet1346" target="_blank">github.com/ashmeet1346</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form animated-border">
+                    <div class="card-inner">
+                        <h3>Get In Touch</h3>
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea rows="3" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Up Button -->
+    <a href="#home" class="up-btn"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
