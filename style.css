@@ -1338,6 +1338,7 @@ body.light-theme .form-group textarea {
     gap: 1rem;
 }
 
+
 /* ---------- Responsive additions ---------- */
 @media (max-width: 900px) {
     .exp-header { flex-direction: column; }
@@ -1356,4 +1357,56 @@ body.light-theme .form-group textarea {
     }
     .exp-tl-card { max-width: 100%; }
 }
+
+/* ---------- Certificate Cards with Images ---------- */
+.cert-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: var(--radius) var(--radius) 0 0;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.4s ease;
+}
+
+.cert-card:hover .cert-img {
+    transform: scale(1.04);
+}
+
+.cert-info {
+    padding: 1.25rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.cert-info h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.cert-info h3 i {
+    color: var(--accent1);
+}
+
+/* ---------- Extra Curricular Grid ---------- */
+.extracurr-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+
 
